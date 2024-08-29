@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>Exercício 5 - OneBitCode</title>
+    </head>
+
+    <body>
+        <form>
+            <h1>Formulário de Inscrição</h1>
+
+            <label for="nome">Nome:</label> <br />
+            <input type="text" id="nome" name="NomeDoUsuario" required />
+            <br /><br />
+
+            <label for="email">Email:</label> <br />
+            <input type="email" id="email" name="EmailDoUsuario" required />
+            <br /><br />
+
+            <label for="telefone">WhatsApp:</label> <br />
+            <input type="tel" id="telefone" name="TelefoneDoUsuario" required />
+            <br /><br />
+
+            <label>Área de Atuação:</label> <br />
+
+            <input type="radio" id="atuacao" name="AtuacaoDoUsuario" required />
+            <label for="atuacao">Desenvolvedor</label>
+
+            <input type="radio" id="atuacao" name="AtuacaoDoUsuario" required />
+            <label for="atuacao">Quality Assurance (QA)</label>
+
+            <input type="radio" id="atuacao" name="AtuacaoDoUsuario" required />
+            <label for="atuacao">Análise de Dados</label>
+
+            <input type="radio" id="atuacao" name="AtuacaoDoUsuario" required />
+            <label for="atuacao">Infraestrutura</label>
+            <br /><br />
+
+            <label for="obs">Observações:</label>
+            <textarea
+                name="ObservacaoDoUsuario"
+                id="obs"
+                placeholder="Escreva suas observações..."
+            ></textarea>
+            <br /><br />
+
+            <label>Ofertas e Novidades:</label> <br />
+            <input type="checkbox" id="checkbox" name="EscolhaDoUsuario" />
+            <label for="checkbox"
+                >Desejo receber ofertar e novidades pelo Email.</label
+            >
+            <br /><br />
+
+            <button type="submit">Enviar</button>
+        </form>
+    </body>
+</html>
